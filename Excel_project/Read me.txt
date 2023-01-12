@@ -1,0 +1,18 @@
+Things covered in this project :
+
+Hi i am dishank an aspiring data scientist,
+who had made this project in microsoft excel on making stock market dashboard and basic analysis using charts. 
+So i choosed the two companie's stock price which is "Asian Paints" and "Dmart".
+Both companies are listed on national stock exchange India.
+This data was gathered from "Yahoo Finace" and it of one year time frame between "11-01-2022" to "11-01-2023".
+
+Steps involved are:
+1)Copied the stock data of both comapnies in one excel file and made a table.
+2)After that made drop down list using data validation  option in excel inn which a person can select variaous point of data 
+like open price, close price, high price, low price , volume on particaular date , etc can be selected  by the user.
+3)Company name is fetched using left function and find function in which find counted the charcter before space in text (eg.-> asianpaint open so, there are 10 characters before space) 
+and later on the text before space in fetched using left.
+4)Then data is copied in another table so that we can make a extracter or dynamic function using index in which the data will be extracted of the things selected by user on dropdown list. 
+(eg.-> if a person selects asian paint open and dmart open then both data will be fecthed accordingly) 
+5)After making extracter table using index and match function. The line charts were made on each and vs chart of both companies so that comarision can be done.
+6)Also made the table where person can see open pice, high price, low price, 52 weeks low and 52 weeks high using function like min, max, match and index function.
